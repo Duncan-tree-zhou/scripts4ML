@@ -83,6 +83,7 @@ if __name__ == '__main__':
     cm_light = mpl.colors.ListedColormap(['#77E0A0', '#FF8080', '#A0A0FF'])
     cm_dark = mpl.colors.ListedColormap(['g','r','b'])
     y_hat = model.predict(x_test)
+    print y_hat.shape,x1.shape
     y_hat = y_hat.reshape(x1.shape)
 
 
