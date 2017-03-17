@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 if __name__ == '__main__':
     mpl.rcParams['font.sans-serif'] = [u'simHei']
     mpl.rcParams['axes.unicode_minus'] = False
-    path = './datasets/7.iris.data'
+    path = '../datasets/7.iris.data'
     # file读取
     # f = file(path)
     # x = []
@@ -83,7 +83,18 @@ if __name__ == '__main__':
     cm_light = mpl.colors.ListedColormap(['#77E0A0', '#FF8080', '#A0A0FF'])
     cm_dark = mpl.colors.ListedColormap(['g','r','b'])
     y_hat = model.predict(x_test)
-    print y_hat.shape,x1.shape
-    y_hat = y_hat.reshape(x1.shape)
+    # print y_hat.shape,x1.shape
+    y_hat = y_hat.reshape(x1.shape) # 使之与输入的形状相同
+    plt.figure(facecolor='w')
+    plt.pcolormesh(x1, x2, y_hat, cmap=cm_light) # 预测值的显示
+    plt.scatter(x[:,0],x[:,1], c=y, edgecolors='k', s=50, cmap=cm_dark) #显示样本
+    plt.xlabel(u'花萼长度',fontsize='14')
+    plt.ylabel(u'花萼宽度',fontsize='14')
+    plt.xlim(x1_min,x1_max)
+    plt.ylim(x2_min,x2_max)
+    plt.grid()
+    plt.title(u'鸢尾花Logistic回归分类效果 - 标准化', fontsize=17)
+    plt.show()
+
 
 
