@@ -2,150 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b37a7a57-0367-4985-a93a-820ef08fee92" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/.idea/10.Regression.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.1.Advertising.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.2.LinearRegression_CV.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.3.Iris_LR.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.4.Overfit_ElasticNet.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.5.Boston.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.Advertising.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.housing.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.housing.names" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.iris.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/10.Regression/10.iris.names" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/.idea/16.SVM.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.1.SVM.intro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.10.grid.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.2.decision_function.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.3.SVM_draw.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.4.ClassifierIndex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.5.unBalance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.6.HandWrittenDigits.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.7.MNIST.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.8.SVR.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.9.CV.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.MNIST.test.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.MNIST.train.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.bipartition.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.bipartition2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.optdigits.names" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.optdigits.tes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/16.optdigits.tra" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/HandWritten/9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/16.SVM/Prediction.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/.idea/20.EM.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.1.EM.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.2.GMM.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.3.GMM_Parameter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.4.GMM_Iris.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.5.DPGMM.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.6.GMM_pdf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/20.HeightWeight.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/20.EM/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.1.Ensumble.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.2.fft.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.3.svd.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.4.convolve.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.5.image_convolve.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.6.odeint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.SH600000.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.lena.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/7.son.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Chaos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Lorenz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_20.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_26.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_27.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_28.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_29.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_30.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_39.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_41.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_42.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_43.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_44.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_45.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_46.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_47.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/7.Package/Pic/svd_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.1.demo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.1.intro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.2.calc_e.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.3.calc_sin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.4.class_intro.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.5.stat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.6.MultiGuass.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.7.gamma.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.8.Benford.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.9.Pearson.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/6.Python.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python/7.candle.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ML/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/7.2.func_iris.py" afterPath="$PROJECT_DIR$/7.2.func_iris.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1.1.func_2d.py" afterPath="$PROJECT_DIR$/ML/1.1.func_2d.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1.2.func_gamma.py" afterPath="$PROJECT_DIR$/ML/1.2.func_gamma.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/2.1.func_birthdayParadox.py" afterPath="$PROJECT_DIR$/ML/2.1.func_birthdayParadox.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/3.1.func_stat.py" afterPath="$PROJECT_DIR$/ML/3.1.func_stat.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/3.2.func_CLT.py" afterPath="$PROJECT_DIR$/ML/3.2.func_CLT.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/4.1.func_transition.py" afterPath="$PROJECT_DIR$/ML/4.1.func_transition.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/4.2.func_tansform.py" afterPath="$PROJECT_DIR$/ML/4.2.func_tansform.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/4.3.func_svd.py" afterPath="$PROJECT_DIR$/ML/4.3.func_svd.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/4.4.func_convolve.py" afterPath="$PROJECT_DIR$/ML/4.4.func_convolve.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/4.5.func_image_convolve.py" afterPath="$PROJECT_DIR$/ML/4.5.func_image_convolve.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/5.1.func_regression.py" afterPath="$PROJECT_DIR$/ML/5.1.func_regression.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/7.1.func_Advertising.py" afterPath="$PROJECT_DIR$/ML/7.1.func_Advertising.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/7.2.func_iris.py" afterPath="$PROJECT_DIR$/ML/7.2.func_iris.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -160,21 +31,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="7.2.func_iris.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML/7.2.func_iris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.2.func_iris.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7.2.func_iris.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+            <state relative-caret-position="190">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -212,6 +83,7 @@
         <option value="$PROJECT_DIR$/4.1.func_transition.py" />
         <option value="$PROJECT_DIR$/func_tansform.py" />
         <option value="$PROJECT_DIR$/7.2.func_iris.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -248,6 +120,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts4ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts4ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -265,6 +151,11 @@
         <option name="myModuleName" value="scripts4ML" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\GithubRepo\scripts4ML\ML" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.7.2.func_iris">
     <configuration default="false" name="16.7.MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -296,7 +187,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scripts4ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.2.func_CLT.py" />
+      <option name="SCRIPT_NAME" value="H:\GithubRepo\scripts4ML\ML\3.2.func_CLT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -313,7 +204,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scripts4ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.1.func_transition.py" />
+      <option name="SCRIPT_NAME" value="H:\GithubRepo\scripts4ML\ML\4.1.func_transition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -347,7 +238,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scripts4ML" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.2.func_iris.py" />
+      <option name="SCRIPT_NAME" value="H:\GithubRepo\scripts4ML\ML\7.2.func_iris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -524,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489733387576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete">
+      <created>1489733731009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489733731009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -543,7 +441,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2641369" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962631" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -564,7 +462,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ignore" />
+    <MESSAGE value="delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,21 +472,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2.1.func_birthdayParadox.py">
+    <entry file="file://$PROJECT_DIR$/ML/2.1.func_birthdayParadox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.func_gamma.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.2.func_gamma.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1.func_2d.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.1.func_2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="33" />
@@ -608,7 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1.func_2d.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.1.func_2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
@@ -643,7 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1.func_2d.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.1.func_2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -664,7 +563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1.func_2d.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.1.func_2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -831,7 +730,7 @@
       </provider>
     </entry>
     <entry file="file://E:/Programs/Anaconda2/Lib/site-packages/matplotlib/pyplot.py" />
-    <entry file="file://$PROJECT_DIR$/3.1.func_stat.py">
+    <entry file="file://$PROJECT_DIR$/ML/3.1.func_stat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="32" />
@@ -839,7 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1.func_2d.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.1.func_2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="30" />
@@ -847,7 +746,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.2.func_CLT.py">
+    <entry file="file://$PROJECT_DIR$/ML/3.2.func_CLT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="46" />
@@ -857,7 +756,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.1.func_birthdayParadox.py">
+    <entry file="file://$PROJECT_DIR$/ML/2.1.func_birthdayParadox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="33" />
@@ -865,7 +764,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.2.func_gamma.py">
+    <entry file="file://$PROJECT_DIR$/ML/1.2.func_gamma.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
@@ -876,21 +775,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func_tansform.py" />
-    <entry file="file://$PROJECT_DIR$/4.1.func_transition.py">
+    <entry file="file://$PROJECT_DIR$/ML/4.1.func_transition.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,10 +793,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7.2.func_iris.py">
+    <entry file="file://$PROJECT_DIR$/ML/7.2.func_iris.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="84" column="33" lean-forward="false" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        <state relative-caret-position="192">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
