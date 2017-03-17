@@ -1,0 +1,11 @@
+#!/bin/sh
+
+exec vim "$@"
+
+/7.Package/
+/10.Regression/
+/16.SVM/
+/20.EM/
+/python/
+/images/
+/.idea/
