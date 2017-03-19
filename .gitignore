@@ -9,3 +9,6 @@ exec vim "$@"
 /python/
 /images/
 /.idea/
+/12.RandomForest/
+/14.XGBoost/
+/datasets/Titanic/
