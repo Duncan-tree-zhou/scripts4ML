@@ -23,7 +23,7 @@ if __name__ == '__main__':
     print 'x=\n',x
     print 'y=\n',y
     # 为了可视化取两个特征
-    x = x[:,:2]
+    # x = x[:,:2]
     x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.7, random_state=0)
     print y_test
 
@@ -55,16 +55,16 @@ if __name__ == '__main__':
     f.close()
 
     # 画图
-    N, M = 50, 50 #纵横各采样50个值
-    x1_min, x1_max = x[:, 0].min(),x[:, 0].max()
-    x2_min, x2_max = x[:, 1].min(),x[:, 1].max()
-    t1 = np.linspace(x1_min, x1_max, N)
-    t2 = np.linspace(x2_min, x2_max, M)
-    # print 't1=\n',t1
-    x1, x2 = np.meshgrid(t1, t2)
-    # print 'x1=\n',x1
-    x_show = np.stack((x1.flat,x2.flat),axis=1)
-    # print 'x_show=\n',x_show
+    # N, M = 50, 50 #纵横各采样50个值
+    # x1_min, x1_max = x[:, 0].min(),x[:, 0].max()
+    # x2_min, x2_max = x[:, 1].min(),x[:, 1].max()
+    # t1 = np.linspace(x1_min, x1_max, N)
+    # t2 = np.linspace(x2_min, x2_max, M)
+    # # print 't1=\n',t1
+    # x1, x2 = np.meshgrid(t1, t2)
+    # # print 'x1=\n',x1
+    # x_show = np.stack((x1.flat,x2.flat),axis=1)
+    # # print 'x_show=\n',x_show
 
     # # 无意义，只是为了凑另外两个维度
     # # 打开该注释前，确保注释掉x = x[:, :2]
@@ -72,25 +72,25 @@ if __name__ == '__main__':
     # x4 = np.ones(x1.size) * np.average(x[:, 3])
     # x_test = np.stack((x1.flat, x2.flat, x3, x4), axis=1)  # 测试点
 
-    cm_light = mpl.colors.ListedColormap(['#FFA0A0','#A0ffA0','#A0A0FF'])
-    cm_dark = mpl.colors.ListedColormap(['r','g','b'])
-    y_show_hat = model.predict(x_show) # 预测值
-    print y_show_hat.shape
-    print x_show.shape
-    print x1.shape
-    y_show_hat = y_show_hat.reshape(x1.shape)   # 使之变为网格形状
-    plt.figure(facecolor='w')
-    plt.pcolormesh(x1, x2, y_show_hat, cmap=cm_light)   # 预测值显示
-
-    plt.scatter(x_test[:,0], x_test[:,1], c=y_test.ravel(), s=120, cmap=cm_dark, marker='*') #测试数据
-    plt.scatter(x[:,0], x[:,1], c=y.ravel(),  s=40, cmap=cm_dark) #全部数据
-    plt.xlabel(iris_feature[0], fontsize=15)
-    plt.ylabel(iris_feature[1], fontsize=15)
-    plt.xlim(x1_min, x1_max)
-    plt.ylim(x2_min, x2_max)
-    plt.grid(True)
-    plt.title(u'鸢尾花数据的决策树分类', fontsize=17)
-    plt.show()
+    # cm_light = mpl.colors.ListedColormap(['#FFA0A0','#A0ffA0','#A0A0FF'])
+    # cm_dark = mpl.colors.ListedColormap(['r','g','b'])
+    # y_show_hat = model.predict(x_show) # 预测值
+    # print y_show_hat.shape
+    # print x_show.shape
+    # print x1.shape
+    # y_show_hat = y_show_hat.reshape(x1.shape)   # 使之变为网格形状
+    # plt.figure(facecolor='w')
+    # plt.pcolormesh(x1, x2, y_show_hat, cmap=cm_light)   # 预测值显示
+    #
+    # plt.scatter(x_test[:,0], x_test[:,1], c=y_test.ravel(), s=120, cmap=cm_dark, marker='*') #测试数据
+    # plt.scatter(x[:,0], x[:,1], c=y.ravel(),  s=40, cmap=cm_dark) #全部数据
+    # plt.xlabel(iris_feature[0], fontsize=15)
+    # plt.ylabel(iris_feature[1], fontsize=15)
+    # plt.xlim(x1_min, x1_max)
+    # plt.ylim(x2_min, x2_max)
+    # plt.grid(True)
+    # plt.title(u'鸢尾花数据的决策树分类', fontsize=17)
+    # plt.show()
 
 
 
