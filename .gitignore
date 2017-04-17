@@ -11,4 +11,6 @@ exec vim "$@"
 /.idea/
 /12.RandomForest/
 /14.XGBoost/
+/18.Clustering/
+/save/
 /datasets/Titanic/
