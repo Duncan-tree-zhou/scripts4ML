@@ -14,3 +14,4 @@ exec vim "$@"
 /18.Clustering/
 /save/
 /datasets/Titanic/
+/jdata/
