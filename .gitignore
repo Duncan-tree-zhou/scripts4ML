@@ -2,6 +2,7 @@
 
 exec vim "$@"
 
+/0.analysis/
 /7.Package/
 /10.Regression/
 /16.SVM/
@@ -15,3 +16,4 @@ exec vim "$@"
 /save/
 /datasets/Titanic/
 /jdata/
+/tf_demo/MNIST_data/
