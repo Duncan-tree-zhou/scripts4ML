@@ -11,12 +11,15 @@ def xavier_init(fan_in, fan_out,constant = 1):
     high = constant * np.sqrt(6.0 / (fan_in + fan_out))
     return tf.random_uniform((fan_in, fan_out), minval = low, maxval = high, dtype = tf.float32)
 
+# two hidden layer autoencoder
 class AdditiveGaussianNoiseAutoencoder(object):
-    def __init__(self, n_input, n_hidden, transfer_function = tf.nn.softplus, optimizer = tf.train.AdamOptimizer(), scale = 0.1):
+    def __init__(self, n_input, n_hidden, n_hidden2, transfer_function = tf.nn.softplus, optimizer = tf.train.AdamOptimizer(), scale = 0.1):
         # 输入维度数
         self.n_input = n_input
         # 隐藏层数
         self.n_hidden = n_hidden
+        # 隐藏层数2
+        self.n_hidden2 = n_hidden2
         # 激活函数，这里用softplus
         self.transfer = transfer_function
         # 高斯噪声系数
@@ -33,12 +36,18 @@ class AdditiveGaussianNoiseAutoencoder(object):
                 self.x ,#+ scale * tf.random_normal((n_input,)),
                 self.weights['w1']),
             self.weights['b1']))
+        # 隐藏层1到隐藏层2运算
+        self.hidden2 = self.transfer(tf.add(
+            tf.matmul(
+                self.hidden ,
+                self.weights['w2']),
+            self.weights['b2']))
         # 重建，即输出
         self.reconstruction = tf.add(
             tf.matmul(
-                self.hidden,
-                self.weights['w2']),
-            self.weights['b2'])
+                self.hidden2,
+                self.weights['w3']),
+            self.weights['b3'])
         # 损失函数（最小二乘）
         self.cost = 0.5 * tf.reduce_sum(
             tf.pow(
@@ -57,8 +66,10 @@ class AdditiveGaussianNoiseAutoencoder(object):
         all_weights = dict()
         all_weights['w1'] = tf.Variable(xavier_init(self.n_input,self.n_hidden))
         all_weights['b1'] = tf.Variable(tf.zeros([self.n_hidden],dtype = tf.float32))
-        all_weights['w2'] = tf.Variable(tf.zeros([self.n_hidden, self.n_input],dtype = tf.float32))
-        all_weights['b2'] = tf.Variable(tf.zeros([self.n_input],dtype = tf.float32))
+        all_weights['w2'] = tf.Variable(tf.zeros([self.n_hidden, self.n_hidden2],dtype = tf.float32))
+        all_weights['b2'] = tf.Variable(tf.zeros([self.n_hidden2],dtype = tf.float32))
+        all_weights['w3'] = tf.Variable(tf.zeros([self.n_hidden2, self.n_input],dtype = tf.float32))
+        all_weights['b3'] = tf.Variable(tf.zeros([self.n_input],dtype = tf.float32))
         return all_weights
 
     def partial_fit(self, X):
@@ -75,10 +86,15 @@ class AdditiveGaussianNoiseAutoencoder(object):
     def transform(self, X):
         return self.sess.run(self.hidden, feed_dict= {self.x: X, self.scale: self.training_scale})
 
-    def generate(self, hidden = None):
+    def transform2(self, hidden = None):
         if hidden is None:
             hidden = np.random.normal(size= self.weights["b1"])
-        return self.sess.run(self.reconstruction, feed_dict= {self.hidden: hidden})
+        return self.sess.run(self.hidden2, feed_dict= {self.x: hidden})
+
+    def generate(self, hidden2 = None):
+        if hidden2 is None:
+            hidden2 = np.random.normal(size= self.weights["b2"])
+        return self.sess.run(self.reconstruction, feed_dict= {self.hidden2: hidden2})
 
     def reconstruct(self, X):
         return self.sess.run(self.reconstruction, feed_dict = {self.x:X, self.scale: self.training_scale})
@@ -88,6 +104,12 @@ class AdditiveGaussianNoiseAutoencoder(object):
 
     def getBiases(self):
         return self.sess.run(self.weights['b1'])
+
+    def getWeights2(self):
+        return self.sess.run(self.weights['w2'])
+
+    def getBiases2(self):
+        return self.sess.run(self.weights['b2'])
 
 
 
@@ -115,8 +137,9 @@ def main():
     autoencoder = AdditiveGaussianNoiseAutoencoder(
         n_input = 784,
         n_hidden = 392,
-        transfer_function = tf.nn.relu6,
-        optimizer = tf.train.AdamOptimizer(learning_rate = 0.001),
+        n_hidden2 = 392,
+        transfer_function = tf.nn.relu,
+        optimizer = tf.train.AdamOptimizer(learning_rate = 0.01),
         scale = 0.01
     )
 
