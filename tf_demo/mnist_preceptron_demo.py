@@ -24,20 +24,23 @@ train_step = tf.train.AdagradOptimizer(0.3).minimize(cross_entropy)
 
 tf.global_variables_initializer().run()
 
-# correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
-# accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
+accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
 for i in range(5000):
     batch_xs, batch_ys = mnist.train.next_batch(100)
     train_step.run({x:batch_xs, y_: batch_ys, keep_prob:0.75})
     correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
+    if i % 100 == 0:
+        train_accuracy = accuracy.eval({x:batch_xs, y_: batch_ys, keep_prob:1.0})
+        print("step %g accuracy: %g"%(i,train_accuracy))
     # accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     # print("step " , i , ":" , accuracy.eval({x: mnist.test.images, y_: mnist.test.labels, keep_prob:1.0}))
     # print("step " , i , ":" , sess.run(cross_entropy,feed_dict={x:batch_xs, y_: batch_ys, keep_prob:1}))
 
 
-correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
-accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+# correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
+# accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 print(accuracy.eval({x: mnist.test.images, y_: mnist.test.labels, keep_prob:1.0}))
 
 
