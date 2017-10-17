@@ -1,4 +1,4 @@
-import tf_demo.models.tutorials.image.cifar10 as cifar10,tf_demo.models.tutorials.image.cifar10_input as cifar10_input
+import models.tutorials.image.cifar10 as cifar10,models.tutorials.image.cifar10_input as cifar10_input
 import tensorflow as tf
 import numpy as np
 import time
