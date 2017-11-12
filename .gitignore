@@ -18,3 +18,4 @@ exec vim "$@"
 /jdata/
 /tf_demo/MNIST_data/
 /tf_demo/models/
+/data_analysis/
